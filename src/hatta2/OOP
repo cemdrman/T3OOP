@@ -1,0 +1,41 @@
+	
+	Get / Set Metodları
+	
+	Nesnelerin özelliklerine direkt olarak erişilebileceği gibi get/set metodlarıyla da ulaşılabilir. 
+	Buradaki amaç özelliklere direkt olarak erişim yerine bu metodlar üzerinden erişim sağlanarak set ile
+	özelliğe değer atama, get ile değeri alma işlemi kontrollü hale getirilir.
+	
+	Get, nesnenin özelliğine almak için kullanılır, metodun dönüş tipi özelliğin dönüş tipiyle aynıdır.
+	Set, nesnenin özelliğine değer atamak için kullanılır, metodun dönüş tipi void’tir ve 
+	özelliğin tipiyle aynı tipde bir parametre alır. Aynı zamanda özellikle verilen değeri kontrol etmek amacıyla kullanılır. 
+	Örneğin bir depodaki bir malın adeti eksi değer olamayacağından, değer atama sırasında kontrol yapılarak yanlış değerlerin atanması engellenmiş olunur.
+
+	
+	
+	Static Keyword’ü
+
+	Static keyword’u Class memory’e(RAM) yüklendiğinde oluşur ve o nesne yaşadığı sürece  var olur. 
+	Bir class’dan üretilen bütün instance’larda tek ve aynı değere sahiptir.
+	Yani bu özellik class’ın nesnesi yerine class’a aittir. Oluşturulan bütün nesneler tek bir değere ulaşmış olurlar. 
+	Değişkenler ya da metodlar static olabilir. 
+
+	Statik değişken, tüm nesnelerin ortak özelliğini (her nesne için benzersiz olmayan) ifade etmek için kullanılabilir.
+	çalışanların şirket adı, öğrenci okul adı gibi.
+	Static metodları kullanmak için, class’dan nesne üretmemize gerek yoktur.
+	Bunun mantığı ise belirtildiği gibi static değişken ya da metodlar üretilen nesneye ait değil, class’a aittir.
+	
+	
+	
+	
+	Encapsulation
+	
+	OOP’in en önemli kavramlarından biridir. Kelime anlamı olarak kapsülleme, yani saklamak olarak düşünülebilir.
+	Buradaki amaç sadece Class’ın özelliklerini ya da metodlarını, ilgili birimlerin görebilmesidir. 
+	
+	Bu görülebilmeyi ise şu keyword’ler sayesinde sağlıyoruz;
+	
+	public: bütün class’lara açık.
+	protected: sadece içinde bulunduğu paketteki class ulaşabilir.
+	private: sadece kendi class’ı üzerinden oluşturulan nesneler ulaşabilir.
+	
+	
