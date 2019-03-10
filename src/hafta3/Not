@@ -1,0 +1,11 @@
+Kalıtım
+
+• Herhangi iki sınıf birbirleri ile kalıtım ilişkisine giremez, arada mantıksal bağlantı olmalıdır, 
+	yani aynı özellikleri barındıran iki sınıf birbiri ile kalıtım yapabilir.
+• İki sınıf arasında kalıtım olabilmesi için kolayca şu soruya cevap aranır: “IS A?” sorusu. 
+	Örnek vermek gerekirse; “Kus” ana sınıfımız, “Papagan” ve “Kartal” alt sınıfımız olmak üzere 
+	“Kartal is a Kus” yani “Kartal bir Kus mu” sorusunu soruyoruz,
+	evet cevabını alabiliyor isek bu kalıtım doğru bir kalıtımdır diyebiliriz. Diyemiyor isek sınıflarımız 
+	birbirleri ile kalıtım yapmak için uygun değildir.
+• Bu konulardaki en önemli kısım kodlama tarafı değil, kodlamada ne zaman kalıtım kavramını kullanacağını bilmektir, 
+	o yüzden işin bu kısmını anlamaya çok önem verilmelidir.
