@@ -1,37 +1,13 @@
 package hafta3;
 
-public class Insan {
+public interface Insan {
 
-	private String gozRengi;
-	 static final String sacRengi = "Sarı";
-	private int yas;
+	String gozRengi = "kahverengi";
+	static final String sacRengi = "Sarı";
+	int yas = 0;
 
-	public void nefesAl() {
-		System.out.println("nefes alınıyor...");
-	}
+	public void nefesAl();
 
-	public String getGozRengi() {
-		return gozRengi;
-	}
-
-	public void setGozRengi(String gozRengi) {
-		this.gozRengi = gozRengi;
-	}
-
-	public String getSacRengi() {
-		return sacRengi;
-	}
-
-	public void setSacRengi(String sacRengi) {
-		//this.sacRengi = sacRengi;
-	}
-
-	public int getYas() {
-		return yas;
-	}
-
-	public void setYas(int yas) {
-		this.yas = yas;
-	}
+	void yürü();
 
 }

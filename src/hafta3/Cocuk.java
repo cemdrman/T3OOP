@@ -1,19 +1,17 @@
 package hafta3;
 
-public class Bebek implements Insan {
+public class Cocuk implements Insan {
 
 	@Override
 	public void nefesAl() {
-		System.out.println("Bebekler hızlı nefes alıp verir");
+		// TODO Auto-generated method stub
+
 	}
 
 	@Override
 	public void yürü() {
 		// TODO Auto-generated method stub
 
-	}
-
-	public void emekle() {
 	}
 
 }
